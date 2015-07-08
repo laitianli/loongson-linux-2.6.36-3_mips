@@ -1,0 +1,572 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ATA_MEM_CAPABILITY	mem-block/ata-demo/ata_cmnd_handle.h	10;"	d
+ATA_MEM_CAPABILITY	mem-block/ata-demo/ata_cmnd_handle.h	7;"	d
+ATA_MEM_PORT_NUM	mem-block/ata-demo/ata_mem.c	16;"	d	file:
+ATA_MEM_PROC_NAME	mem-block/ata-demo/ata_mem.c	14;"	d	file:
+ATA_MEM_SECTOR_SIZE	mem-block/ata-demo/ata_cmnd_handle.h	13;"	d
+ATA_MEM_VIRTUAL_IRQ_NUM	mem-block/ata-demo/ata_mem.c	17;"	d	file:
+ATA_SCSI_RBUF_SIZE	mem-block/ata-demo/ata_cmnd_handle.c	10;"	d	file:
+ATA_SCSI_RBUF_SIZE	mem-block/scsi-demo/scsi_cmnd_handle.c	67;"	d	file:
+BLK_DEV_MAJOR	block-demo/block_demo.c	11;"	d	file:
+BLK_DEV_MAJOR	block-no-elevator-demo/block_no_elevator_demo.c	11;"	d	file:
+BLOCK_LEN	download/scsi_test/scsiexe.h	9;"	d
+BUS_ID_SIZE	bus_device_driver_demo/bus_demo.h	5;"	d
+BUS_NAME	bus_device_driver_demo/bus_demo.c	7;"	d	file:
+CFLAGS	download/scsi_test/Makefile	/^CFLAGS =	-O2 -g -Wall -fmessage-length=0$/;"	m
+DEVICE_NAME	bus_device_driver_demo/driver_module.c	8;"	d	file:
+DISK_NAME	block-demo/block_demo.c	9;"	d	file:
+DISK_NAME	block-no-elevator-demo/block_no_elevator_demo.c	9;"	d	file:
+DISK_SIZE	block-demo/block_demo.c	10;"	d	file:
+DISK_SIZE	block-no-elevator-demo/block_no_elevator_demo.c	10;"	d	file:
+DRIVER_NAME	bus_device_driver_demo/driver_module.c	9;"	d	file:
+END	work-queue/work-queue-demo.c	13;"	d	file:
+KER-DIR	demo/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.32.9$/;"	m
+KER-DIR	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^	KER-DIR ?= \/usr\/src\/kernels\/$(REL-KER)-$(SYS-ARCH)$/;"	m
+KER-DIR	klist/Makefile	/^	KER-DIR=$(KERD)$/;"	m
+KER-DIR	kobject-demo/Makefile	/^	KER-DIR=$(KERD)$/;"	m
+KER-DIR	kset_demo/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KER-DIR	loop_demo/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KER-DIR	pci-peer/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.32.9$/;"	m
+KER-DIR	timer-demo/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KER-DIR	work-queue/Makefile	/^	KER-DIR=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	block-demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	block-no-elevator-demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	bus_device_driver_demo/Makefile	/^	KERD=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	chrdev/Makefile	/^				KERD ?=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	class_demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	klist/Makefile	/^	KERD=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	kobject-demo/Makefile	/^	KERD=\/home\/laitianli\/kernel\/linux-2.6.18$/;"	m
+KERD	mem-block/ata-demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.32.9$/;"	m
+KERD	mem-block/scsi-demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.32.9$/;"	m
+KERD	mem-block/sm-demo/Makefile	/^	KERD ?=\/home\/laitianli\/kernel\/linux-2.6.32.9$/;"	m
+KER_DIR	bus_device_driver_demo/Makefile	/^	KER_DIR=$(KERD)$/;"	m
+LIBS	download/scsi_test/Makefile	/^LIBS =$/;"	m
+LOOP_CHANGE_FD	loop_demo/loop_demo.h	/^	LOOP_CHANGE_FD	,$/;"	e	enum:__anon2
+LOOP_CLR_FD	loop_demo/loop_demo.h	/^	LOOP_CLR_FD	,$/;"	e	enum:__anon2
+LOOP_DEMO_MAJOR	loop_demo/loop_demo.c	11;"	d	file:
+LOOP_DEMO_NAME	loop_demo/loop_demo.c	12;"	d	file:
+LOOP_GET_STATUS	loop_demo/loop_demo.h	/^	LOOP_GET_STATUS ,$/;"	e	enum:__anon2
+LOOP_GET_STATUS64	loop_demo/loop_demo.h	/^	LOOP_GET_STATUS64 ,$/;"	e	enum:__anon2
+LOOP_NAME_SIZE	loop_demo/loop_demo.h	10;"	d
+LOOP_SET_FD	loop_demo/loop_demo.h	/^ 	LOOP_SET_FD		= 0X4C00,$/;"	e	enum:__anon2
+LOOP_SET_STATUS	loop_demo/loop_demo.h	/^	LOOP_SET_STATUS	,$/;"	e	enum:__anon2
+LOOP_SET_STATUS64	loop_demo/loop_demo.h	/^	LOOP_SET_STATUS64 ,$/;"	e	enum:__anon2
+LO_FLAGS_READ_ONLY	loop_demo/loop_demo.h	/^		LO_FLAGS_READ_ONLY = 1 << 0,$/;"	e	enum:__anon1
+LO_FLAGS_USE_AOPS	loop_demo/loop_demo.h	/^		LO_FLAGS_USE_AOPS = 1 << 1,$/;"	e	enum:__anon1
+LO_FLAGS_USE_DERICT	loop_demo/loop_demo.h	/^		LO_FLAGS_USE_DERICT = 1 << 2,$/;"	e	enum:__anon1
+Lo_bound	loop_demo/loop_demo.h	/^	Lo_bound,$/;"	e	enum:_loop_state_
+Lo_rundown	loop_demo/loop_demo.h	/^	Lo_rundown$/;"	e	enum:_loop_state_
+Lo_unbound	loop_demo/loop_demo.h	/^	Lo_unbound,$/;"	e	enum:_loop_state_
+MEM_DEVICE_SIZE	mem-block/scsi-demo/scsi_cmnd_handle.c	7;"	d	file:
+MODULE_NAME	block-demo/Makefile	/^MODULE_NAME = block-demo$/;"	m
+MODULE_NAME	block-no-elevator-demo/Makefile	/^MODULE_NAME = block-no-elevator-demo$/;"	m
+MODULE_NAME	bus_device_driver_demo/Makefile	/^MODULE_NAME=driver-module$/;"	m
+MODULE_NAME	chrdev/Makefile	/^MODULE_NAME = chrdev$/;"	m
+MODULE_NAME	class_demo/Makefile	/^MODULE_NAME = class-demo$/;"	m
+MODULE_NAME	demo/Makefile	/^MODULE_NAME = text-demo$/;"	m
+MODULE_NAME	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^MODULE_NAME=exe-task01$/;"	m
+MODULE_NAME	klist/Makefile	/^MODULE_NAME=klist$/;"	m
+MODULE_NAME	kobject-demo/Makefile	/^MODULE_NAME=kobject$/;"	m
+MODULE_NAME	kset_demo/Makefile	/^MODULE_NAME=kset$/;"	m
+MODULE_NAME	loop_demo/Makefile	/^MODULE_NAME=loop-demo$/;"	m
+MODULE_NAME	mem-block/ata-demo/Makefile	/^MODULE_NAME=ata-mem$/;"	m
+MODULE_NAME	mem-block/scsi-demo/Makefile	/^MODULE_NAME=scsi-mem$/;"	m
+MODULE_NAME	mem-block/sm-demo/Makefile	/^MODULE_NAME=sm-mod$/;"	m
+MODULE_NAME	pci-peer/Makefile	/^MODULE_NAME=pci-peer$/;"	m
+MODULE_NAME	timer-demo/Makefile	/^MODULE_NAME=timer$/;"	m
+MODULE_NAME	work-queue/Makefile	/^MODULE_NAME=work-queue$/;"	m
+MSIX_CAPABILITY	pci-peer/seq_pci.c	15;"	d	file:
+MSI_CAPABILITY	pci-peer/seq_pci.c	14;"	d	file:
+OBJS	download/scsi_test/Makefile	/^OBJS=$(patsubst %.c,%.o,$(SRCS))$/;"	m
+PCILog	pci-peer/seq_pci.c	25;"	d	file:
+PCI_EXPRESS_CAPABILITY	pci-peer/seq_pci.c	16;"	d	file:
+PEOPLE_NUM	klist/klist-demo.c	46;"	d	file:
+PLATFORM_NAME	mem-block/ata-demo/ata_mem.c	15;"	d	file:
+PLATFORM_NAME	mem-block/scsi-demo/scsi_mem.c	10;"	d	file:
+POWER_MANAGEMENT_CAPABILITY	pci-peer/seq_pci.c	13;"	d	file:
+PROC_NAME	work-queue/work-queue-demo.c	11;"	d	file:
+PWD	block-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	block-no-elevator-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	bus_device_driver_demo/Makefile	/^	PWD = $(shell pwd)$/;"	m
+PWD	chrdev/Makefile	/^			PWD=$(shell pwd)$/;"	m
+PWD	class_demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	klist/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	kobject-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	kset_demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	loop_demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	mem-block/Makefile	/^PWD=$(shell pwd)$/;"	m
+PWD	mem-block/ata-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	mem-block/scsi-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	mem-block/sm-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	pci-peer/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	timer-demo/Makefile	/^	PWD=$(shell pwd)$/;"	m
+PWD	work-queue/Makefile	/^	PWD=$(shell pwd)$/;"	m
+REL-KER	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^	REL-KER=$(shell uname -r)$/;"	m
+SCSIEXE_H_	download/scsi_test/scsiexe.h	2;"	d
+SCSI_MEM_HOST_PROC_NAME	mem-block/scsi-demo/scsi_mem_host.c	7;"	d	file:
+SCSI_TIMEOUT	download/scsi_test/scsiexe.h	10;"	d
+SENSE_LEN	download/scsi_test/scsiexe.h	8;"	d
+SMALL_MEM	mem-block/ata-demo/ata_cmnd_handle.h	5;"	d
+SM_CAPICITY	mem-block/sm-demo/sm.c	17;"	d	file:
+SM_MAJOR	mem-block/sm-demo/sm.c	15;"	d	file:
+SM_MAJOR_COUNT	mem-block/sm-demo/sm.c	16;"	d	file:
+SRCS	download/scsi_test/Makefile	/^SRCS=$(wildcard *.c)$/;"	m
+START	work-queue/work-queue-demo.c	12;"	d	file:
+SYS-ARCH	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^	SYS-ARCH=$(shell uname -p)$/;"	m
+TARGET	download/scsi_test/Makefile	/^TARGET =	scsi_test$/;"	m
+WORKQUEUE_NAME	work-queue/work-queue-demo.c	10;"	d	file:
+_ARCH	block-demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	block-demo/Makefile	/^_ARCH ?=$(ARCH)$/;"	m
+_ARCH	block-no-elevator-demo/Makefile	/^	_ARCH = x86_64$/;"	m
+_ARCH	block-no-elevator-demo/Makefile	/^_ARCH=$(ARCH)$/;"	m
+_ARCH	bus_device_driver_demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	bus_device_driver_demo/Makefile	/^_ARCH=$(ARCH)$/;"	m
+_ARCH	chrdev/Makefile	/^		_ARCH=x86_64$/;"	m
+_ARCH	chrdev/Makefile	/^_ARCH ?=$(ARCH)$/;"	m
+_ARCH	class_demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	class_demo/Makefile	/^_ARCH ?=$(ARCH)$/;"	m
+_ARCH	klist/Makefile	/^	_ARCH = x86_64$/;"	m
+_ARCH	klist/Makefile	/^_ARCH=$(ARCH)$/;"	m
+_ARCH	kobject-demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	kobject-demo/Makefile	/^_ARCH=$(ARCH)$/;"	m
+_ARCH	mem-block/ata-demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	mem-block/ata-demo/Makefile	/^_ARCH ?= $(ARCH)$/;"	m
+_ARCH	mem-block/scsi-demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	mem-block/scsi-demo/Makefile	/^_ARCH ?= $(ARCH)$/;"	m
+_ARCH	mem-block/sm-demo/Makefile	/^	_ARCH=x86_64$/;"	m
+_ARCH	mem-block/sm-demo/Makefile	/^_ARCH=$(ARCH)$/;"	m
+_ATA_CMND_HANDLE_	mem-block/ata-demo/ata_cmnd_handle.h	3;"	d
+_BUS_DEMO_H_	bus_device_driver_demo/bus_demo.h	2;"	d
+_CROSS_COMPILE	block-demo/Makefile	/^_CROSS_COMPILE ?=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	block-no-elevator-demo/Makefile	/^_CROSS_COMPILE=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	bus_device_driver_demo/Makefile	/^_CROSS_COMPILE=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	chrdev/Makefile	/^_CROSS_COMPILE ?=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	class_demo/Makefile	/^_CROSS_COMPILE ?=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	klist/Makefile	/^	_CROSS_COMPILE = $/;"	m
+_CROSS_COMPILE	klist/Makefile	/^_CROSS_COMPILE=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	kobject-demo/Makefile	/^_CROSS_COMPILE=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	mem-block/ata-demo/Makefile	/^_CROSS_COMPILE ?=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	mem-block/scsi-demo/Makefile	/^_CROSS_COMPILE ?=$(CROSS_COMPILE)$/;"	m
+_CROSS_COMPILE	mem-block/sm-demo/Makefile	/^_CROSS_COMPILE=$(CROSS_COMPILE)$/;"	m
+_DEVICE_DEMO_H_	bus_device_driver_demo/device_demo.h	2;"	d
+_DRIVER_DEMO_H_	bus_device_driver_demo/driver_demo.h	2;"	d
+_KOBJECT_DEMO_H_	kobject-demo/kobject_demo.h	2;"	d
+_LOOP_DEMO_H_	loop_demo/loop_demo.h	2;"	d
+_SCSI_CMND_HANDLE_H_	mem-block/scsi-demo/scsi_cmnd_handle.h	2;"	d
+_SCSI_MEM_HOST_H_	mem-block/scsi-demo/scsi_mem_host.h	2;"	d
+_SEQ_PCI_H_	pci-peer/seq_pci.h	2;"	d
+__DEMO_KSET_H_	kset_demo/kset_demo.h	2;"	d
+__this_module	klist/klist.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	klist/klist.mod.c	/^__used$/;"	v	file:
+__used	klist/klist.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+_loop_state_	loop_demo/loop_demo.h	/^typedef enum _loop_state_ $/;"	g
+age	klist/klist-demo.c	/^    int                 age;$/;"	m	struct:people	file:
+alloc_people	klist/klist-demo.c	/^struct people*  alloc_people(void)$/;"	f
+ata_cmnd_handle	mem-block/ata-demo/ata_cmnd_handle.h	/^struct ata_cmnd_handle $/;"	s
+ata_cmnd_id_ata_handle	mem-block/ata-demo/ata_cmnd_handle.c	/^int ata_cmnd_id_ata_handle(void* arg1,void* arg2)$/;"	f
+ata_cmnd_init_dev_params_handle	mem-block/ata-demo/ata_cmnd_handle.c	/^int ata_cmnd_init_dev_params_handle(void* arg1,void* arg2)$/;"	f
+ata_cmnd_pio_read_handle	mem-block/ata-demo/ata_cmnd_handle.c	/^int ata_cmnd_pio_read_handle(void* arg1,void* arg2)$/;"	f
+ata_cmnd_pio_write_handle	mem-block/ata-demo/ata_cmnd_handle.c	/^int ata_cmnd_pio_write_handle(void* arg1,void* arg2)$/;"	f
+ata_internal_buf_get	mem-block/ata-demo/ata_cmnd_handle.c	/^static void* ata_internal_buf_get(struct scatterlist* sgl,int count,int copy_in)$/;"	f	file:
+ata_internal_buf_put	mem-block/ata-demo/ata_cmnd_handle.c	/^static inline void ata_internal_buf_put(struct scatterlist* sgl,int count,int copy_out)$/;"	f	file:
+ata_mem_dev	mem-block/ata-demo/ata_mem.c	/^static struct platform_device ata_mem_dev = {$/;"	v	typeref:struct:platform_device	file:
+ata_mem_dev_config	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_dev_config(struct ata_device *dev)$/;"	f	file:
+ata_mem_drv	mem-block/ata-demo/ata_mem.c	/^static struct platform_driver ata_mem_drv = {$/;"	v	typeref:struct:platform_driver	file:
+ata_mem_error_handler	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_error_handler(struct ata_port *ap)$/;"	f	file:
+ata_mem_exit	mem-block/ata-demo/ata_mem.c	/^module_exit(ata_mem_exit);$/;"	v
+ata_mem_exit	mem-block/ata-demo/ata_mem.c	/^static void __exit ata_mem_exit(void)$/;"	f	file:
+ata_mem_freeze	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_freeze(struct ata_port *ap)$/;"	f	file:
+ata_mem_hardreset	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_hardreset(struct ata_link *link, unsigned int *class,unsigned long deadline)$/;"	f	file:
+ata_mem_init	mem-block/ata-demo/ata_mem.c	/^module_init(ata_mem_init);$/;"	v
+ata_mem_init	mem-block/ata-demo/ata_mem.c	/^static int __init ata_mem_init(void)$/;"	f	file:
+ata_mem_ops	mem-block/ata-demo/ata_mem.c	/^struct ata_port_operations ata_mem_ops = {$/;"	v	typeref:struct:ata_port_operations
+ata_mem_platform_probe	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_platform_probe(struct platform_device* pdev)$/;"	f	file:
+ata_mem_platform_release	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_platform_release(struct device* dev)$/;"	f	file:
+ata_mem_platform_remove	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_platform_remove(struct platform_device* pdev)$/;"	f	file:
+ata_mem_port_info	mem-block/ata-demo/ata_mem.c	/^static const struct ata_port_info ata_mem_port_info = {$/;"	v	typeref:struct:ata_port_info	file:
+ata_mem_port_start	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_port_start(struct ata_port *ap)$/;"	f	file:
+ata_mem_port_stop	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_port_stop(struct ata_port *ap)$/;"	f	file:
+ata_mem_post_internal_cmd	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_post_internal_cmd(struct ata_queued_cmd *qc)$/;"	f	file:
+ata_mem_postreset	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_postreset(struct ata_link *link, unsigned int *class)$/;"	f	file:
+ata_mem_qc_fill_rtf	mem-block/ata-demo/ata_mem.c	/^static bool ata_mem_qc_fill_rtf(struct ata_queued_cmd* qc)$/;"	f	file:
+ata_mem_qc_issue	mem-block/ata-demo/ata_mem.c	/^static unsigned int ata_mem_qc_issue(struct ata_queued_cmd *qc)$/;"	f	file:
+ata_mem_qc_prep	mem-block/ata-demo/ata_mem.c	/^static void ata_mem_qc_prep(struct ata_queued_cmd *qc)$/;"	f	file:
+ata_mem_scr_read	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_scr_read(struct ata_link *link, unsigned int sc_reg, u32 *val)$/;"	f	file:
+ata_mem_scr_write	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_scr_write(struct ata_link *link, unsigned int sc_reg, u32 val)$/;"	f	file:
+ata_mem_softreset	mem-block/ata-demo/ata_mem.c	/^static int ata_mem_softreset(struct ata_link *link, unsigned int *class, unsigned long deadline)$/;"	f	file:
+ata_scsi_rbuf	mem-block/ata-demo/ata_cmnd_handle.c	/^static u8 ata_scsi_rbuf[ATA_SCSI_RBUF_SIZE];$/;"	v	file:
+ata_scsi_rbuf	mem-block/scsi-demo/scsi_cmnd_handle.c	/^static u8 ata_scsi_rbuf[ATA_SCSI_RBUF_SIZE];$/;"	v	file:
+ata_scsi_rbuf_get	mem-block/ata-demo/ata_cmnd_handle.c	/^static void *ata_scsi_rbuf_get(struct scsi_cmnd *cmd, int copy_in,unsigned long *flags)$/;"	f	file:
+ata_scsi_rbuf_get	mem-block/scsi-demo/scsi_cmnd_handle.c	/^static void *ata_scsi_rbuf_get(struct scsi_cmnd *cmd, bool copy_in,$/;"	f	file:
+ata_scsi_rbuf_put	mem-block/ata-demo/ata_cmnd_handle.c	/^static inline void ata_scsi_rbuf_put(struct scsi_cmnd *cmd, int copy_out,unsigned long *flags)$/;"	f	file:
+ata_scsi_rbuf_put	mem-block/scsi-demo/scsi_cmnd_handle.c	/^static inline void ata_scsi_rbuf_put(struct scsi_cmnd *cmd, bool copy_out,$/;"	f	file:
+attr	kobject-demo/kobject_demo.h	/^	struct attribute attr;$/;"	m	struct:demo_attribute	typeref:struct:demo_attribute::attribute
+bar0	pci-peer/seq_pci.h	/^	u32 bar0,bar1;$/;"	m	struct:pci_config_common
+bar1	pci-peer/seq_pci.h	/^	u32 bar0,bar1;$/;"	m	struct:pci_config_common
+bar2	pci-peer/seq_pci.h	/^    u32 bar2,bar3,bar4,bar5;$/;"	m	struct:pci_dev_config
+bar3	pci-peer/seq_pci.h	/^    u32 bar2,bar3,bar4,bar5;$/;"	m	struct:pci_dev_config
+bar4	pci-peer/seq_pci.h	/^    u32 bar2,bar3,bar4,bar5;$/;"	m	struct:pci_dev_config
+bar5	pci-peer/seq_pci.h	/^    u32 bar2,bar3,bar4,bar5;$/;"	m	struct:pci_dev_config
+belong_primary	pci-peer/seq_pci.h	/^	u8 belong_primary,belong_secondary$/;"	m	struct:pci_dev_config
+bist	pci-peer/seq_pci.h	/^    u8 cache_line_size,latency_time,head_type,bist;$/;"	m	struct:pci_config_common
+blk_dev_open	block-demo/block_demo.c	/^static int blk_dev_open(struct inode* inode,struct file* fp)$/;"	f	file:
+blk_dev_open	block-no-elevator-demo/block_no_elevator_demo.c	/^static int blk_dev_open(struct inode* inode,struct file* fp)$/;"	f	file:
+blk_dev_release	block-demo/block_demo.c	/^static int blk_dev_release(struct inode* inode,struct file* fp)$/;"	f	file:
+blk_dev_release	block-no-elevator-demo/block_no_elevator_demo.c	/^static int blk_dev_release(struct inode* inode,struct file* fp)$/;"	f	file:
+blk_ops	loop_demo/loop_demo.c	/^static struct block_device_operations blk_ops = {$/;"	v	typeref:struct:block_device_operations	file:
+block_demo_exit	block-demo/block_demo.c	/^module_exit(block_demo_exit);$/;"	v
+block_demo_exit	block-demo/block_demo.c	/^static void __exit block_demo_exit(void)$/;"	f	file:
+block_demo_exit	block-no-elevator-demo/block_no_elevator_demo.c	/^module_exit(block_demo_exit);$/;"	v
+block_demo_exit	block-no-elevator-demo/block_no_elevator_demo.c	/^static void __exit block_demo_exit(void)$/;"	f	file:
+block_demo_init	block-demo/block_demo.c	/^module_init(block_demo_init);$/;"	v
+block_demo_init	block-demo/block_demo.c	/^static int __init block_demo_init(void)$/;"	f	file:
+block_demo_init	block-no-elevator-demo/block_no_elevator_demo.c	/^module_init(block_demo_init);$/;"	v
+block_demo_init	block-no-elevator-demo/block_no_elevator_demo.c	/^static int __init block_demo_init(void)$/;"	f	file:
+bridge_ctl	pci-peer/seq_pci.h	/^    u16 bridge_ctl;$/;"	m	struct:pci_bridge_config
+bsize	loop_demo/loop_demo.c	/^	int bsize;$/;"	m	struct:lo_read_data	file:
+build_people_list	klist/klist-demo.c	/^void build_people_list(void)$/;"	f
+bus_demo_match	bus_device_driver_demo/bus_demo.c	/^static int bus_demo_match(struct device* dev,struct device_driver* drv)$/;"	f	file:
+bus_demo_register	bus_device_driver_demo/bus_demo.c	/^int bus_demo_register()$/;"	f
+bus_demo_unregister	bus_device_driver_demo/bus_demo.c	/^void bus_demo_unregister()$/;"	f
+cache_line_size	pci-peer/seq_pci.h	/^    u8 cache_line_size,latency_time,head_type,bist;$/;"	m	struct:pci_config_common
+cap_base	pci-peer/seq_pci.h	/^	 u8  cap_base;$/;"	m	struct:pci_config_common
+cardbusCIS	pci-peer/seq_pci.h	/^    u32 cardbusCIS;$/;"	m	struct:pci_dev_config
+chrdev_demo_exit	chrdev/chrdev_demo.c	/^module_exit(chrdev_demo_exit);$/;"	v
+chrdev_demo_exit	chrdev/chrdev_demo.c	/^static void __exit chrdev_demo_exit(void)$/;"	f	file:
+chrdev_demo_init	chrdev/chrdev_demo.c	/^module_init(chrdev_demo_init);$/;"	v
+chrdev_demo_init	chrdev/chrdev_demo.c	/^static int __init chrdev_demo_init(void)$/;"	f	file:
+class_demo_exit	class_demo/class_demo.c	/^module_exit(class_demo_exit);$/;"	v
+class_demo_exit	class_demo/class_demo.c	/^static void __exit class_demo_exit(void)$/;"	f	file:
+class_demo_init	class_demo/class_demo.c	/^module_init(class_demo_init);$/;"	v
+class_demo_init	class_demo/class_demo.c	/^static int __init class_demo_init(void)$/;"	f	file:
+classcode	pci-peer/seq_pci.h	/^    u32 classcode;$/;"	m	struct:pci_config_common
+close_workqueue_demo	work-queue/work-queue-demo.c	/^static int close_workqueue_demo(struct inode* p_node,struct file* pf)$/;"	f	file:
+cmd	mem-block/ata-demo/ata_cmnd_handle.h	/^	u8		cmd;$/;"	m	struct:ata_cmnd_handle
+cmd	mem-block/scsi-demo/scsi_cmnd_handle.h	/^    unsigned char cmd;$/;"	m	struct:cmnd_handle
+cmnd_function	mem-block/scsi-demo/scsi_cmnd_handle.h	/^    int (*cmnd_function)(struct scsi_cmnd* cmd);$/;"	m	struct:cmnd_handle
+cmnd_handle	mem-block/scsi-demo/scsi_cmnd_handle.h	/^struct cmnd_handle$/;"	s
+command	pci-peer/seq_pci.h	/^    u16 command,status;$/;"	m	struct:pci_config_common
+common	pci-peer/seq_pci.h	/^	struct pci_config_common common;$/;"	m	struct:pci_bridge_config	typeref:struct:pci_bridge_config::pci_config_common
+common	pci-peer/seq_pci.h	/^{	struct pci_config_common common;$/;"	m	struct:pci_dev_config	typeref:struct:pci_dev_config::pci_config_common
+count	kobject-demo/kobject_demo.h	/^	int 	count;$/;"	m	struct:demo_obj
+data_buffer	download/scsi_test/scsi_test.c	/^unsigned char data_buffer[BLOCK_LEN*256];$/;"	v
+demo_attribute	kobject-demo/kobject_demo.h	/^struct demo_attribute$/;"	s
+demo_create_file	kobject-demo/kobject_demo.c	/^int demo_create_file(struct demo_obj* obj,const struct demo_attribute* attr)$/;"	f
+demo_kobject_release	kobject-demo/kobject_demo.c	/^void demo_kobject_release(struct kobject* obj)$/;"	f
+demo_kobject_release	kset_demo/kset_demo.c	/^void demo_kobject_release(struct kobject* obj)$/;"	f
+demo_kobject_show	kset_demo/kset_demo.c	/^ssize_t demo_kobject_show(struct kobject* obj,struct attribute* attr,char* buf)$/;"	f
+demo_kobject_store	kset_demo/kset_demo.c	/^ssize_t demo_kobject_store(struct kobject* obj,struct attribute* attr,const char* buf,size_t count)$/;"	f
+demo_kset_exit	kset_demo/kset_demo.c	/^module_exit(demo_kset_exit);$/;"	v
+demo_kset_exit	kset_demo/kset_demo.c	/^static void __exit demo_kset_exit(void)$/;"	f	file:
+demo_kset_init	kset_demo/kset_demo.c	/^module_init(demo_kset_init);$/;"	v
+demo_kset_init	kset_demo/kset_demo.c	/^static int __init demo_kset_init(void)$/;"	f	file:
+demo_module_exit	demo/demo.c	/^module_exit(demo_module_exit);$/;"	v
+demo_module_exit	demo/demo.c	/^static void __exit demo_module_exit(void)$/;"	f	file:
+demo_module_init	demo/demo.c	/^module_init(demo_module_init);$/;"	v
+demo_module_init	demo/demo.c	/^static int __init demo_module_init(void)$/;"	f	file:
+demo_obj	kobject-demo/kobject_demo.h	/^struct demo_obj$/;"	s
+demo_remove_file	kobject-demo/kobject_demo.c	/^int demo_remove_file(struct demo_obj* obj,const struct demo_attribute* attr)$/;"	f
+demo_show_val_1	kobject-demo/kobject_demo.c	/^ssize_t demo_show_val_1(struct demo_obj* obj,struct demo_attribute* attr,char* buf)$/;"	f
+demo_show_val_2	kobject-demo/kobject_demo.c	/^ssize_t demo_show_val_2(struct demo_obj* obj,struct demo_attribute* attr,char* buf)$/;"	f
+demo_store_val_1	kobject-demo/kobject_demo.c	/^ssize_t demo_store_val_1(struct demo_obj* obj,struct demo_attribute* attr,const char* buf,size_t count)$/;"	f
+demo_store_val_2	kobject-demo/kobject_demo.c	/^ssize_t demo_store_val_2(struct demo_obj* obj,struct demo_attribute* attr,const char* buf,size_t count)$/;"	f
+destroy_io_hdr	download/scsi_test/scsiexe.c	/^void destroy_io_hdr(struct sg_io_hdr * p_hdr) {$/;"	f
+dev	bus_device_driver_demo/device_demo.h	/^	struct device dev;$/;"	m	struct:device_demo	typeref:struct:device_demo::device
+dev_demo_bus_release	bus_device_driver_demo/bus_demo.c	/^void dev_demo_bus_release(struct device* dev)$/;"	f
+deviceID	pci-peer/seq_pci.h	/^	u16 vendorID,deviceID;$/;"	m	struct:pci_config_common
+device_demo	bus_device_driver_demo/device_demo.h	/^struct device_demo$/;"	s
+device_demo_register	bus_device_driver_demo/device_demo.c	/^int device_demo_register(struct device_demo* pdev)$/;"	f
+device_demo_unregister	bus_device_driver_demo/device_demo.c	/^void device_demo_unregister(struct device_demo* pdev)$/;"	f
+device_release	class_demo/class_demo.c	/^static void device_release(struct device* dev)$/;"	f	file:
+disks	loop_demo/loop_demo.c	/^struct gendisk**         disks	  = NULL;$/;"	v	typeref:struct:gendisk
+do_cmnd_inquiry_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_inquiry_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_mode_sense_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_mode_sense_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_read_10_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_read_10_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_read_buffer_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_read_buffer_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_read_capacity_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_read_capacity_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_report_luns_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_report_luns_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_request_sense_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_request_sense_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_test_unit_ready_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_test_unit_ready_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_cmnd_write_10_handle	mem-block/scsi-demo/scsi_cmnd_handle.c	/^int do_cmnd_write_10_handle(struct scsi_cmnd* pcmnd)$/;"	f
+do_lo_read	loop_demo/loop_demo.c	/^static int do_lo_read(struct loop_demo_device* lo,struct bio_vec* bvec,int bsize,loff_t pos)$/;"	f	file:
+do_lo_write	loop_demo/loop_demo.c	/^static int do_lo_write(struct loop_demo_device* lo,struct bio_vec* bvec,int bsize,loff_t pos,struct page* page)$/;"	f	file:
+do_work	eudyptula-challenge-fb5997a8edd9/task04/coding_style.c	/^int do_work(int *my_int, int retval)$/;"	f
+driver_demo	bus_device_driver_demo/driver_demo.h	/^struct driver_demo$/;"	s
+driver_demo_probe	bus_device_driver_demo/driver_demo.c	/^static int driver_demo_probe(struct device* dev)$/;"	f	file:
+driver_demo_register	bus_device_driver_demo/driver_demo.c	/^int driver_demo_register(struct driver_demo* pdrv)$/;"	f
+driver_demo_remove	bus_device_driver_demo/driver_demo.c	/^static int driver_demo_remove(struct device* dev)$/;"	f	file:
+driver_demo_unregister	bus_device_driver_demo/driver_demo.c	/^void driver_demo_unregister(struct driver_demo* pdrv)$/;"	f
+driver_module_demo_exit	bus_device_driver_demo/driver_module.c	/^module_exit(driver_module_demo_exit);$/;"	v
+driver_module_demo_exit	bus_device_driver_demo/driver_module.c	/^static void __exit driver_module_demo_exit(void)$/;"	f	file:
+driver_module_demo_init	bus_device_driver_demo/driver_module.c	/^module_init(driver_module_demo_init);$/;"	v
+driver_module_demo_init	bus_device_driver_demo/driver_module.c	/^static int __init driver_module_demo_init(void)$/;"	f	file:
+drv	bus_device_driver_demo/driver_demo.h	/^	struct device_driver drv;$/;"	m	struct:driver_demo	typeref:struct:driver_demo::device_driver
+execute_Inquiry	download/scsi_test/scsiexe.c	/^int execute_Inquiry(int fd, int page_code, int evpd, struct sg_io_hdr * p_hdr) {$/;"	f
+g_ata_mem_buf	mem-block/ata-demo/ata_cmnd_handle.h	/^static char *g_ata_mem_buf = NULL;$/;"	v
+g_ata_mem_buf	mem-block/ata-demo/ata_cmnd_handle.h	/^static char g_ata_mem_buf[ATA_MEM_CAPABILITY];$/;"	v
+g_ata_mem_sht	mem-block/ata-demo/ata_mem.c	/^static struct scsi_host_template g_ata_mem_sht = {$/;"	v	typeref:struct:scsi_host_template	file:
+g_attr	kset_demo/kset_demo.c	/^static struct attribute g_attr[] = {$/;"	v	typeref:struct:attribute	file:
+g_attr_2	kset_demo/kset_demo.c	/^static struct attribute g_attr_2[] = {$/;"	v	typeref:struct:attribute	file:
+g_bus_demo	bus_device_driver_demo/bus_demo.c	/^static struct bus_type g_bus_demo = {$/;"	v	typeref:struct:bus_type	file:
+g_class	class_demo/class_demo.c	/^static struct class* g_class            = NULL;$/;"	v	typeref:struct:class	file:
+g_class_dev	class_demo/class_demo.c	/^static struct class_device* g_class_dev = NULL;$/;"	v	typeref:struct:class_device	file:
+g_cmnd	mem-block/scsi-demo/scsi_cmnd_handle.c	/^struct cmnd_handle g_cmnd[] = {$/;"	v	typeref:struct:cmnd_handle
+g_demo_attr	kobject-demo/kobject_demo.c	/^static struct demo_attribute g_demo_attr[] = {$/;"	v	typeref:struct:demo_attribute	file:
+g_dev	class_demo/class_demo.c	/^static struct device        g_dev = {$/;"	v	typeref:struct:device	file:
+g_dev_demo_bus	bus_device_driver_demo/bus_demo.c	/^static struct device g_dev_demo_bus = {$/;"	v	typeref:struct:device	file:
+g_fop	work-queue/work-queue-demo.c	/^static struct file_operations g_fop = {$/;"	v	typeref:struct:file_operations	file:
+g_fops	pci-peer/seq_pci.c	/^static struct file_operations g_fops = {$/;"	v	typeref:struct:file_operations	file:
+g_handle	mem-block/ata-demo/ata_cmnd_handle.c	/^struct ata_cmnd_handle g_handle[] = {$/;"	v	typeref:struct:ata_cmnd_handle
+g_kobj	kobject-demo/kobject_demo.c	/^struct demo_obj g_kobj = {0};$/;"	v	typeref:struct:demo_obj
+g_kobj	kset_demo/kset_demo.c	/^static struct kobject g_kobj = {0};$/;"	v	typeref:struct:kobject	file:
+g_kobj_2	kset_demo/kset_demo.c	/^static struct kobject g_kobj_2 = {0};$/;"	v	typeref:struct:kobject	file:
+g_kset_child	kset_demo/kset_demo.c	/^static struct kset g_kset_child = {0};$/;"	v	typeref:struct:kset	file:
+g_kset_root	kset_demo/kset_demo.c	/^static struct kset g_kset_root  = {0};$/;"	v	typeref:struct:kset	file:
+g_lock	block-demo/block_demo.c	/^spinlock_t g_lock;$/;"	v
+g_mem_buf	block-demo/block_demo.c	/^static char g_mem_buf[DISK_SIZE]  = {0};$/;"	v	file:
+g_mem_buf	block-no-elevator-demo/block_no_elevator_demo.c	/^static char g_mem_buf[DISK_SIZE]  = {0};$/;"	v	file:
+g_mem_capacity	mem-block/sm-demo/sm.c	/^static unsigned long g_mem_capacity = SM_CAPICITY;$/;"	v	file:
+g_mem_device	mem-block/scsi-demo/scsi_cmnd_handle.c	/^char g_mem_device[MEM_DEVICE_SIZE] = {0};$/;"	v
+g_mem_fops	block-demo/block_demo.c	/^static struct block_device_operations g_mem_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+g_mem_fops	block-no-elevator-demo/block_no_elevator_demo.c	/^static struct block_device_operations g_mem_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+g_my_dev_demo	bus_device_driver_demo/driver_module.c	/^static struct device_demo g_my_dev_demo = {$/;"	v	typeref:struct:device_demo	file:
+g_my_drv_demo	bus_device_driver_demo/driver_module.c	/^static struct driver_demo g_my_drv_demo = {$/;"	v	typeref:struct:driver_demo	file:
+g_ops	kobject-demo/kobject_demo.c	/^static struct sysfs_ops g_ops = {$/;"	v	typeref:struct:sysfs_ops	file:
+g_ops	kset_demo/kset_demo.c	/^static struct sysfs_ops g_ops = {$/;"	v	typeref:struct:sysfs_ops	file:
+g_pci_bdg	pci-peer/seq_pci.c	/^struct pci_bridge_config g_pci_bdg ;$/;"	v	typeref:struct:pci_bridge_config
+g_pci_dev	pci-peer/seq_pci.c	/^struct pci_dev_config g_pci_dev ;$/;"	v	typeref:struct:pci_dev_config
+g_pci_printer_ops	pci-peer/seq_pci.c	/^static const struct seq_operations g_pci_printer_ops = {$/;"	v	typeref:struct:seq_operations	file:
+g_scsi_mem_drv_template	mem-block/scsi-demo/scsi_mem_host.c	/^struct scsi_host_template g_scsi_mem_drv_template = {$/;"	v	typeref:struct:scsi_host_template
+g_timerlist	timer-demo/timer-demo.c	/^static struct timer_list g_timerlist;$/;"	v	typeref:struct:timer_list	file:
+g_type	kobject-demo/kobject_demo.c	/^static struct kobj_type g_type = {$/;"	v	typeref:struct:kobj_type	file:
+g_type	kset_demo/kset_demo.c	/^static struct kobj_type g_type = {$/;"	v	typeref:struct:kobj_type	file:
+g_type_2	kset_demo/kset_demo.c	/^static struct kobj_type g_type_2 = {$/;"	v	typeref:struct:kobj_type	file:
+g_work	work-queue/work-queue-demo.c	/^static struct work_struct g_work = {0};$/;"	v	typeref:struct:work_struct	file:
+g_work_thread_tag	work-queue/work-queue-demo.c	/^static unsigned int g_work_thread_tag = 1;$/;"	v	file:
+get_bus_demo	bus_device_driver_demo/bus_demo.c	/^struct bus_type* get_bus_demo(void)$/;"	f
+get_bus_demo_dev	bus_device_driver_demo/bus_demo.c	/^struct device* get_bus_demo_dev(void)$/;"	f
+get_cmnd_array_size	mem-block/ata-demo/ata_cmnd_handle.c	/^unsigned int get_cmnd_array_size(void)$/;"	f
+get_cmnd_array_size	mem-block/scsi-demo/scsi_cmnd_handle.c	/^unsigned get_cmnd_array_size(void)$/;"	f
+get_device_buf	mem-block/ata-demo/ata_cmnd_handle.h	/^static inline char* get_device_buf(void)$/;"	f
+get_device_buf	mem-block/scsi-demo/scsi_cmnd_handle.c	/^char* get_device_buf(void)$/;"	f
+get_loop_size	loop_demo/loop_demo.c	/^static loff_t get_loop_size(struct loop_demo_device*lo,struct file* fp)$/;"	f	file:
+gp_blk_dev_disk	block-demo/block_demo.c	/^static struct gendisk* gp_blk_dev_disk = NULL;$/;"	v	typeref:struct:gendisk	file:
+gp_blk_dev_disk	block-no-elevator-demo/block_no_elevator_demo.c	/^static struct gendisk* gp_blk_dev_disk = NULL;$/;"	v	typeref:struct:gendisk	file:
+gp_proc_entry	work-queue/work-queue-demo.c	/^static struct proc_dir_entry* gp_proc_entry = NULL;$/;"	v	typeref:struct:proc_dir_entry	file:
+gp_work_thread	work-queue/work-queue-demo.c	/^static struct task_struct* gp_work_thread = NULL;$/;"	v	typeref:struct:task_struct	file:
+gp_workqueue	work-queue/work-queue-demo.c	/^static struct workqueue_struct* gp_workqueue = NULL;$/;"	v	typeref:struct:workqueue_struct	file:
+handle	mem-block/ata-demo/ata_cmnd_handle.h	/^	int (*handle)(void* arg1,void* arg2);$/;"	m	struct:ata_cmnd_handle
+head_type	pci-peer/seq_pci.h	/^    u8 cache_line_size,latency_time,head_type,bist;$/;"	m	struct:pci_config_common
+init_io_hdr	download/scsi_test/scsiexe.c	/^struct  sg_io_hdr * init_io_hdr() {$/;"	f
+inter_line	pci-peer/seq_pci.h	/^	u8 inter_line,inter_pin;$/;"	m	struct:pci_config_common
+inter_pin	pci-peer/seq_pci.h	/^	u8 inter_line,inter_pin;$/;"	m	struct:pci_config_common
+iobase	pci-peer/seq_pci.h	/^    u8 iobase,iolimit;$/;"	m	struct:pci_bridge_config
+iobaseupper16	pci-peer/seq_pci.h	/^    u16 iobaseupper16,iolimitupper16;$/;"	m	struct:pci_bridge_config
+iolimit	pci-peer/seq_pci.h	/^    u8 iobase,iolimit;$/;"	m	struct:pci_bridge_config
+iolimitupper16	pci-peer/seq_pci.h	/^    u16 iobaseupper16,iolimitupper16;$/;"	m	struct:pci_bridge_config
+is_loop_device	loop_demo/loop_demo.c	/^static inline int is_loop_device(struct file* fp)$/;"	f	file:
+klist_demo_exit	klist/klist-demo.c	/^module_exit(klist_demo_exit);$/;"	v
+klist_demo_exit	klist/klist-demo.c	/^static void __exit klist_demo_exit(void)$/;"	f	file:
+klist_demo_init	klist/klist-demo.c	/^module_init(klist_demo_init);$/;"	v
+klist_demo_init	klist/klist-demo.c	/^static int __init klist_demo_init(void)$/;"	f	file:
+kobject_demo_exit	kobject-demo/kobject_demo.c	/^module_exit(kobject_demo_exit);$/;"	v
+kobject_demo_exit	kobject-demo/kobject_demo.c	/^static void __exit kobject_demo_exit(void)$/;"	f	file:
+kobject_demo_init	kobject-demo/kobject_demo.c	/^module_init(kobject_demo_init);$/;"	v
+kobject_demo_init	kobject-demo/kobject_demo.c	/^static int __init kobject_demo_init(void)$/;"	f	file:
+kref	klist/klist-demo.c	/^    struct kref         kref;$/;"	m	struct:people	typeref:struct:people::kref	file:
+latency_time	pci-peer/seq_pci.h	/^    u8 cache_line_size,latency_time,head_type,bist;$/;"	m	struct:pci_config_common
+lo	loop_demo/loop_demo.c	/^	struct loop_demo_device* lo;$/;"	m	struct:lo_read_data	typeref:struct:lo_read_data::loop_demo_device	file:
+lo_backing_file	loop_demo/loop_demo.h	/^	struct file* 				lo_backing_file;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::file
+lo_bh_done	loop_demo/loop_demo.h	/^	struct completion			lo_bh_done;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::completion
+lo_bio	loop_demo/loop_demo.h	/^	struct bio* 				lo_bio;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::bio
+lo_biotail	loop_demo/loop_demo.h	/^	struct bio*					lo_biotail;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::bio
+lo_blocksize	loop_demo/loop_demo.h	/^	unsigned long 				lo_blocksize;$/;"	m	struct:loop_demo_device
+lo_ctl_mutex	loop_demo/loop_demo.h	/^	struct mutex				lo_ctl_mutex;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::mutex
+lo_device	loop_demo/loop_demo.h	/^	struct block_device* 		lo_device;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::block_device
+lo_done	loop_demo/loop_demo.h	/^	struct completion			lo_done;$/;"	m	struct:loop_demo_device	typeref:struct:loop_demo_device::completion
+lo_file_name	loop_demo/loop_demo.h	/^	char						lo_file_name[LOOP_NAME_SIZE];$/;"	m	struct:loop_demo_device
+lo_flags	loop_demo/loop_demo.h	/^	int 						lo_flags;$/;"	m	struct:loop_demo_device
+lo_index	loop_demo/loop_demo.h	/^	unsigned int				lo_index;$/;"	m	struct:loop_demo_device
+lo_lock	loop_demo/loop_demo.h	/^	spinlock_t					lo_lock;$/;"	m	struct:loop_demo_device
+lo_pending	loop_demo/loop_demo.h	/^	int							lo_pending;$/;"	m	struct:loop_demo_device
+lo_queue	loop_demo/loop_demo.h	/^	request_queue_t*			lo_queue;$/;"	m	struct:loop_demo_device
+lo_read_actor	loop_demo/loop_demo.c	/^static int lo_read_actor(read_descriptor_t* desc,struct page* page,$/;"	f	file:
+lo_read_data	loop_demo/loop_demo.c	/^struct lo_read_data $/;"	s	file:
+lo_refcnt	loop_demo/loop_demo.h	/^	int							lo_refcnt;$/;"	m	struct:loop_demo_device
+lo_state	loop_demo/loop_demo.h	/^	loop_state					lo_state;$/;"	m	struct:loop_demo_device
+loop_add_bio	loop_demo/loop_demo.c	/^static void loop_add_bio(struct loop_demo_device* lo,struct bio* bio)$/;"	f	file:
+loop_demo_close	loop_demo/loop_demo.c	/^static int loop_demo_close(struct inode* node,struct file* fp)$/;"	f	file:
+loop_demo_clr_fd	loop_demo/loop_demo.c	/^static int loop_demo_clr_fd(struct loop_demo_device* lo,struct block_device* bdev,struct file* lo_file,unsigned long arg)$/;"	f	file:
+loop_demo_device	loop_demo/loop_demo.h	/^struct loop_demo_device$/;"	s
+loop_demo_handle_bio	loop_demo/loop_demo.c	/^static void loop_demo_handle_bio(struct loop_demo_device* lo,struct bio* bio)$/;"	f	file:
+loop_demo_ioctl	loop_demo/loop_demo.c	/^static int loop_demo_ioctl(struct inode* node,struct file* fp,unsigned int cmd,unsigned long arg)$/;"	f	file:
+loop_demo_make_request	loop_demo/loop_demo.c	/^static int loop_demo_make_request(request_queue_t* q,struct bio* old_bio)$/;"	f	file:
+loop_demo_module_exit	loop_demo/loop_demo.c	/^module_exit(loop_demo_module_exit);$/;"	v
+loop_demo_module_exit	loop_demo/loop_demo.c	/^static void __exit loop_demo_module_exit(void)$/;"	f	file:
+loop_demo_module_init	loop_demo/loop_demo.c	/^module_init(loop_demo_module_init);$/;"	v
+loop_demo_module_init	loop_demo/loop_demo.c	/^static int __init loop_demo_module_init(void)$/;"	f	file:
+loop_demo_open	loop_demo/loop_demo.c	/^static int loop_demo_open(struct inode* node,struct file* fp)$/;"	f	file:
+loop_demo_set_fd	loop_demo/loop_demo.c	/^static int loop_demo_set_fd(struct loop_demo_device* lo,struct block_device* bdev,struct file* lo_file,unsigned long arg)$/;"	f	file:
+loop_demo_thread_handle	loop_demo/loop_demo.c	/^static int loop_demo_thread_handle(void* data)$/;"	f	file:
+loop_dev	loop_demo/loop_demo.c	/^struct loop_demo_device* loop_dev = NULL;$/;"	v	typeref:struct:loop_demo_device
+loop_do_read_handle	loop_demo/loop_demo.c	/^static int loop_do_read_handle(struct loop_demo_device* lo,struct bio* bio)$/;"	f	file:
+loop_do_write_handle	loop_demo/loop_demo.c	/^static int loop_do_write_handle(struct loop_demo_device* lo,struct bio* bio)$/;"	f	file:
+loop_get_bio	loop_demo/loop_demo.c	/^static struct bio* loop_get_bio(struct loop_demo_device* lo)$/;"	f	file:
+loop_state	loop_demo/loop_demo.h	/^}loop_state;$/;"	t	typeref:enum:_loop_state_
+main	download/scsi_test/scsi_test.c	/^int main(int argc, char * argv[]) {$/;"	f
+max_lat	pci-peer/seq_pci.h	/^    u8 min_gnt,max_lat;$/;"	m	struct:pci_dev_config
+max_loop	loop_demo/loop_demo.c	/^const unsigned int max_loop	= 1;$/;"	v
+mem_block_no_elevator_request_fn	block-no-elevator-demo/block_no_elevator_demo.c	/^static int mem_block_no_elevator_request_fn(request_queue_t* q,struct bio* bio)$/;"	f	file:
+mem_block_requeut_fn	block-demo/block_demo.c	/^static void mem_block_requeut_fn(struct request_queue* q)$/;"	f	file:
+membase	pci-peer/seq_pci.h	/^    u16 membase,memlimit;$/;"	m	struct:pci_bridge_config
+memlimit	pci-peer/seq_pci.h	/^    u16 membase,memlimit;$/;"	m	struct:pci_bridge_config
+min_gnt	pci-peer/seq_pci.h	/^    u8 min_gnt,max_lat;$/;"	m	struct:pci_dev_config
+my_device_demo_release	bus_device_driver_demo/driver_module.c	/^void my_device_demo_release(struct device* pdev)$/;"	f
+my_driver_demo_probe	bus_device_driver_demo/driver_module.c	/^static int my_driver_demo_probe(struct device_demo* pdev)$/;"	f	file:
+my_driver_demo_remove	bus_device_driver_demo/driver_module.c	/^static int my_driver_demo_remove(struct device_demo* pdev)$/;"	f	file:
+my_exit	eudyptula-challenge-fb5997a8edd9/task04/coding_style.c	/^module_exit(my_exit);$/;"	v
+my_exit	eudyptula-challenge-fb5997a8edd9/task04/coding_style.c	/^void my_exit(void)$/;"	f
+my_init	eudyptula-challenge-fb5997a8edd9/task04/coding_style.c	/^int my_init(void)$/;"	f
+my_init	eudyptula-challenge-fb5997a8edd9/task04/coding_style.c	/^module_init(my_init);$/;"	v
+name	bus_device_driver_demo/device_demo.h	/^	char* name;$/;"	m	struct:device_demo
+name	klist/klist-demo.c	/^    char                name[20];$/;"	m	struct:people	file:
+node	klist/klist-demo.c	/^    struct klist_node   node;$/;"	m	struct:people	typeref:struct:people::klist_node	file:
+obj	kobject-demo/kobject_demo.h	/^	struct kobject obj;$/;"	m	struct:demo_obj	typeref:struct:demo_obj::kobject
+obj-m	block-demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	block-no-elevator-demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	bus_device_driver_demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	chrdev/Makefile	/^		obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	class_demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	eudyptula-challenge-fb5997a8edd9/task01/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	klist/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	kobject-demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	kset_demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	loop_demo/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	mem-block/ata-demo/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	mem-block/scsi-demo/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	mem-block/sm-demo/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	pci-peer/Makefile	/^	obj-m = $(MODULE_NAME).o$/;"	m
+obj-m	timer-demo/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+obj-m	work-queue/Makefile	/^	obj-m=$(MODULE_NAME).o$/;"	m
+object_show	kobject-demo/kobject_demo.c	/^ssize_t object_show(struct kobject* obj,struct attribute* attr,char* buf)$/;"	f
+object_store	kobject-demo/kobject_demo.c	/^ssize_t object_store(struct kobject* obj,struct attribute* attr,const char* buf,size_t count)$/;"	f
+offset	loop_demo/loop_demo.c	/^	unsigned long offset;$/;"	m	struct:lo_read_data	file:
+open_workqueue_demo	work-queue/work-queue-demo.c	/^static int open_workqueue_demo(struct inode* p_node,struct file* pf)$/;"	f	file:
+page	loop_demo/loop_demo.c	/^	struct page* page;$/;"	m	struct:lo_read_data	typeref:struct:lo_read_data::page	file:
+parse_hd_address	mem-block/ata-demo/ata_cmnd_handle.c	/^unsigned int parse_hd_address(struct ata_queued_cmd* qc,u64* block,u32* n_block)$/;"	f
+pci_bridge_config	pci-peer/seq_pci.h	/^struct pci_bridge_config$/;"	s
+pci_config_common	pci-peer/seq_pci.h	/^struct pci_config_common$/;"	s
+pci_dev_config	pci-peer/seq_pci.h	/^struct pci_dev_config$/;"	s
+pci_printer_exit	pci-peer/seq_pci.c	/^module_exit(pci_printer_exit);$/;"	v
+pci_printer_exit	pci-peer/seq_pci.c	/^static void __exit pci_printer_exit(void)$/;"	f	file:
+pci_printer_init	pci-peer/seq_pci.c	/^module_init(pci_printer_init);$/;"	v
+pci_printer_init	pci-peer/seq_pci.c	/^static int __init pci_printer_init(void)$/;"	f	file:
+pci_printer_next	pci-peer/seq_pci.c	/^static void* pci_printer_next(struct seq_file* seqf,void* v,loff_t* pos)$/;"	f	file:
+pci_printer_open	pci-peer/seq_pci.c	/^static int pci_printer_open(struct inode* inode,struct file* file)$/;"	f	file:
+pci_printer_show	pci-peer/seq_pci.c	/^static int pci_printer_show(struct seq_file* seqf,void* v)$/;"	f	file:
+pci_printer_start	pci-peer/seq_pci.c	/^static void* pci_printer_start(struct seq_file* seqf,loff_t* pos)$/;"	f	file:
+pci_printer_stop	pci-peer/seq_pci.c	/^static void pci_printer_stop(struct seq_file* seqf,void* v)$/;"	f	file:
+people	klist/klist-demo.c	/^struct people$/;"	s	file:
+people_get	klist/klist-demo.c	/^void people_get(struct klist_node* node)$/;"	f
+people_put	klist/klist-demo.c	/^void people_put(struct klist_node* node)$/;"	f
+prefmembase	pci-peer/seq_pci.h	/^    u16 prefmembase,prefmemlimit;$/;"	m	struct:pci_bridge_config
+prefmembaseupper32	pci-peer/seq_pci.h	/^    u32 prefmembaseupper32,prefmemlimitupper32;$/;"	m	struct:pci_bridge_config
+prefmemlimit	pci-peer/seq_pci.h	/^    u16 prefmembase,prefmemlimit;$/;"	m	struct:pci_bridge_config
+prefmemlimitupper32	pci-peer/seq_pci.h	/^    u32 prefmembaseupper32,prefmemlimitupper32;$/;"	m	struct:pci_bridge_config
+primary	pci-peer/seq_pci.h	/^    u8 primary,secondary,subordinate,secondary_latency_timer;$/;"	m	struct:pci_bridge_config
+print_pci_bridge	pci-peer/seq_pci.c	/^static void print_pci_bridge(struct pci_bridge_config* pdev)$/;"	f	file:
+print_pci_dev	pci-peer/seq_pci.c	/^static void print_pci_dev(struct pci_dev_config* pdev)$/;"	f	file:
+probe	bus_device_driver_demo/driver_demo.h	/^	int (*probe)(struct driver_demo* );$/;"	m	struct:driver_demo
+queue_work_demo_exit	work-queue/work-queue-demo.c	/^module_exit(queue_work_demo_exit);$/;"	v
+queue_work_demo_exit	work-queue/work-queue-demo.c	/^static void __exit queue_work_demo_exit(void)$/;"	f	file:
+queue_work_demo_init	work-queue/work-queue-demo.c	/^module_init(queue_work_demo_init);$/;"	v
+queue_work_demo_init	work-queue/work-queue-demo.c	/^static int __init queue_work_demo_init(void)$/;"	f	file:
+read_pci_bridge_register	pci-peer/seq_pci.c	/^static void read_pci_bridge_register(struct pci_dev* pdev)$/;"	f	file:
+read_pci_capability_register	pci-peer/seq_pci.c	/^static void read_pci_capability_register(struct pci_dev* pdev,const u8* cab)$/;"	f	file:
+read_pci_common_register	pci-peer/seq_pci.c	/^static void read_pci_common_register(struct pci_dev* pdev,struct pci_config_common* pcom)$/;"	f	file:
+read_pci_dev_register	pci-peer/seq_pci.c	/^static void read_pci_dev_register(struct pci_dev* pdev)$/;"	f	file:
+read_pci_register	pci-peer/seq_pci.c	/^static void read_pci_register(struct pci_dev* pdev)$/;"	f	file:
+read_workqueue_demo	work-queue/work-queue-demo.c	/^ssize_t read_workqueue_demo(struct file* pf,char __user* buf,size_t len,loff_t *pos)$/;"	f
+release_people	klist/klist-demo.c	/^static void release_people(struct kref* ref)$/;"	f	file:
+remove	bus_device_driver_demo/driver_demo.h	/^	int (*remove)(struct driver_demo* );$/;"	m	struct:driver_demo
+remove_people_list	klist/klist-demo.c	/^void remove_people_list(void)$/;"	f
+request_queue_t	block-no-elevator-demo/block_no_elevator_demo.c	/^typedef struct request_queue request_queue_t;$/;"	t	typeref:struct:request_queue	file:
+revision	pci-peer/seq_pci.h	/^    u8  revision;$/;"	m	struct:pci_config_common
+rom_base_addr	pci-peer/seq_pci.h	/^	u32 rom_base_addr; $/;"	m	struct:pci_bridge_config
+rom_base_addr	pci-peer/seq_pci.h	/^    u32 rom_base_addr;    $/;"	m	struct:pci_dev_config
+scsi_mem_exit	mem-block/scsi-demo/scsi_mem.c	/^module_exit(scsi_mem_exit);$/;"	v
+scsi_mem_exit	mem-block/scsi-demo/scsi_mem.c	/^static void __exit scsi_mem_exit(void)$/;"	f	file:
+scsi_mem_host_proc_info	mem-block/scsi-demo/scsi_mem_host.c	/^int scsi_mem_host_proc_info(struct Scsi_Host* host,char* buffer,char** start,off_t offset,int len,int fun)$/;"	f
+scsi_mem_host_qcmd	mem-block/scsi-demo/scsi_mem_host.c	/^int scsi_mem_host_qcmd(struct scsi_cmnd* cmnd,void (*done)(struct scsi_cmnd*))$/;"	f
+scsi_mem_init	mem-block/scsi-demo/scsi_mem.c	/^module_init(scsi_mem_init);$/;"	v
+scsi_mem_init	mem-block/scsi-demo/scsi_mem.c	/^static int __init scsi_mem_init(void)$/;"	f	file:
+secondary	pci-peer/seq_pci.h	/^    u8 primary,secondary,subordinate,secondary_latency_timer;$/;"	m	struct:pci_bridge_config
+secondary_latency_timer	pci-peer/seq_pci.h	/^    u8 primary,secondary,subordinate,secondary_latency_timer;$/;"	m	struct:pci_bridge_config
+secondary_status	pci-peer/seq_pci.h	/^    u16 secondary_status;$/;"	m	struct:pci_bridge_config
+sense_buffer	download/scsi_test/scsi_test.c	/^unsigned char sense_buffer[SENSE_LEN];$/;"	v
+set_sense_data	download/scsi_test/scsiexe.c	/^void set_sense_data(struct sg_io_hdr * p_hdr, unsigned char * data,$/;"	f
+set_xfer_data	download/scsi_test/scsiexe.c	/^void set_xfer_data(struct sg_io_hdr * p_hdr, void * data, unsigned int length) {$/;"	f
+show	kobject-demo/kobject_demo.h	/^	ssize_t (*show)(struct demo_obj* obj,struct demo_attribute* attr,char* buf);$/;"	m	struct:demo_attribute
+show_hdr_outputs	download/scsi_test/scsi_test.c	/^void show_hdr_outputs(struct sg_io_hdr * hdr) {$/;"	f
+show_product	download/scsi_test/scsi_test.c	/^void show_product(struct sg_io_hdr * hdr) {$/;"	f
+show_product_rev	download/scsi_test/scsi_test.c	/^void show_product_rev(struct sg_io_hdr * hdr) {$/;"	f
+show_sense_buffer	download/scsi_test/scsi_test.c	/^void show_sense_buffer(struct sg_io_hdr * hdr) {$/;"	f
+show_vendor	download/scsi_test/scsi_test.c	/^void show_vendor(struct sg_io_hdr * hdr) {$/;"	f
+sm_demo_exit	mem-block/sm-demo/sm.c	/^module_exit(sm_demo_exit);$/;"	v
+sm_demo_exit	mem-block/sm-demo/sm.c	/^static void __exit sm_demo_exit(void)$/;"	f	file:
+sm_demo_init	mem-block/sm-demo/sm.c	/^module_init(sm_demo_init);$/;"	v
+sm_demo_init	mem-block/sm-demo/sm.c	/^static int __init sm_demo_init(void)$/;"	f	file:
+sm_fops	mem-block/sm-demo/sm.c	/^static struct block_device_operations sm_fops = {$/;"	v	typeref:struct:block_device_operations	file:
+sm_ioctl	mem-block/sm-demo/sm.c	/^static int sm_ioctl(struct block_device *bdev, fmode_t mode,$/;"	f	file:
+sm_open	mem-block/sm-demo/sm.c	/^static int sm_open(struct block_device *pdev, fmode_t mode)$/;"	f	file:
+sm_platform_dev	mem-block/scsi-demo/scsi_mem.c	/^static struct platform_device sm_platform_dev = {$/;"	v	typeref:struct:platform_device	file:
+sm_platform_drv	mem-block/scsi-demo/scsi_mem.c	/^static struct platform_driver sm_platform_drv = {$/;"	v	typeref:struct:platform_driver	file:
+sm_platform_probe	mem-block/scsi-demo/scsi_mem.c	/^int sm_platform_probe(struct platform_device* dev)$/;"	f
+sm_platform_release_dev	mem-block/scsi-demo/scsi_mem.c	/^void sm_platform_release_dev(struct device* dev)$/;"	f
+sm_platform_remove	mem-block/scsi-demo/scsi_mem.c	/^int sm_platform_remove(struct platform_device* dev)$/;"	f
+sm_prep_fn	mem-block/sm-demo/sm.c	/^static int sm_prep_fn(struct request_queue *q, struct request *rq)$/;"	f	file:
+sm_probe	mem-block/sm-demo/sm.c	/^static int sm_probe(struct device* dev)$/;"	f	file:
+sm_read_capacity	mem-block/sm-demo/sm.c	/^static void sm_read_capacity(struct scsi_device *sdp)$/;"	f	file:
+sm_release	mem-block/sm-demo/sm.c	/^static int sm_release(struct gendisk *disk, fmode_t mode)$/;"	f	file:
+sm_remove	mem-block/sm-demo/sm.c	/^static int sm_remove(struct device* dev)$/;"	f	file:
+sm_rescan	mem-block/sm-demo/sm.c	/^static void sm_rescan(struct device* dev)$/;"	f	file:
+sm_revalidate_disk	mem-block/sm-demo/sm.c	/^static int sm_revalidate_disk(struct gendisk *disk)$/;"	f	file:
+sm_spinup_mem_disk	mem-block/sm-demo/sm.c	/^static void sm_spinup_mem_disk(struct scsi_device *sdp)$/;"	f	file:
+sm_template	mem-block/sm-demo/sm.c	/^static struct scsi_driver sm_template = {$/;"	v	typeref:struct:scsi_driver	file:
+status	pci-peer/seq_pci.h	/^    u16 command,status;$/;"	m	struct:pci_config_common
+store	kobject-demo/kobject_demo.h	/^	ssize_t (*store)(struct demo_obj* obj,struct demo_attribute* attr,const char* buf,size_t count);$/;"	m	struct:demo_attribute
+sub_deviceID	pci-peer/seq_pci.h	/^    u16 sub_vendorID,sub_deviceID;$/;"	m	struct:pci_dev_config
+sub_vendorID	pci-peer/seq_pci.h	/^    u16 sub_vendorID,sub_deviceID;$/;"	m	struct:pci_dev_config
+subdir	mem-block/Makefile	/^subdir=$(PWD)\/ata-demo $(PWD)\/scsi-demo $(PWD)\/sm-demo$/;"	m
+subordinate	pci-peer/seq_pci.h	/^    u8 primary,secondary,subordinate,secondary_latency_timer;$/;"	m	struct:pci_bridge_config
+task01_module_exit	eudyptula-challenge-fb5997a8edd9/task01/task01.c	/^module_exit(task01_module_exit);$/;"	v
+task01_module_exit	eudyptula-challenge-fb5997a8edd9/task01/task01.c	/^static void task01_module_exit(void)$/;"	f	file:
+task01_module_init	eudyptula-challenge-fb5997a8edd9/task01/task01.c	/^module_init(task01_module_init);$/;"	v
+task01_module_init	eudyptula-challenge-fb5997a8edd9/task01/task01.c	/^static int task01_module_init(void)$/;"	f	file:
+task_module_exit	eudyptula-challenge-fb5997a8edd9/task04/task01.c	/^module_exit(task_module_exit);$/;"	v
+task_module_exit	eudyptula-challenge-fb5997a8edd9/task04/task01.c	/^static void task_module_exit(void)$/;"	f	file:
+task_module_init	eudyptula-challenge-fb5997a8edd9/task04/task01.c	/^module_init(task_module_init);$/;"	v
+task_module_init	eudyptula-challenge-fb5997a8edd9/task04/task01.c	/^static int task_module_init(void)$/;"	f	file:
+test_execute_Inquiry	download/scsi_test/scsi_test.c	/^void test_execute_Inquiry(char * path, int evpd, int page_code) {$/;"	f
+text_fun	pci-peer/seq_pci.c	/^static void text_fun(struct pci_dev* pdev)$/;"	f	file:
+timer_demo_exit	timer-demo/timer-demo.c	/^module_exit(timer_demo_exit);$/;"	v
+timer_demo_exit	timer-demo/timer-demo.c	/^static void __exit timer_demo_exit(void)$/;"	f	file:
+timer_demo_handle	timer-demo/timer-demo.c	/^static void timer_demo_handle(unsigned long data)$/;"	f	file:
+timer_demo_init	timer-demo/timer-demo.c	/^module_init(timer_demo_init);$/;"	v
+timer_demo_init	timer-demo/timer-demo.c	/^static int __init timer_demo_init(void)$/;"	f	file:
+to_demo_attr	kobject-demo/kobject_demo.h	20;"	d
+transfer_none	loop_demo/loop_demo.c	/^static int transfer_none(struct loop_demo_device* lo,int cmd,$/;"	f	file:
+traverse_people_list	klist/klist-demo.c	/^void traverse_people_list(void)$/;"	f
+vendorID	pci-peer/seq_pci.h	/^	u16 vendorID,deviceID;$/;"	m	struct:pci_config_common
+work_completion	work-queue/work-queue-demo.c	/^static struct completion work_completion = {0};$/;"	v	typeref:struct:completion	file:
+work_demo_handle	work-queue/work-queue-demo.c	/^static void work_demo_handle(void* parg)$/;"	f	file:
+work_thread_handle	work-queue/work-queue-demo.c	/^static int work_thread_handle(void* data)$/;"	f	file:
+write_workqueue_demo	work-queue/work-queue-demo.c	/^ssize_t write_workqueue_demo(struct file* pf,const char __user* buf,size_t len,loff_t* pos)$/;"	f

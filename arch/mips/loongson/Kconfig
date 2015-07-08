@@ -1,0 +1,217 @@
+choice
+	prompt "Machine Type"
+	depends on MACH_LOONGSON
+
+config LEMOTE_FULOONG2E
+	bool "Lemote Fuloong(2e) mini-PC"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON2E
+	select DMA_NONCOHERENT
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	select HW_HAS_PCI
+	select I8259
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	select LOONGSON_MC146818
+	help
+	  Lemote Fuloong(2e) mini-PC board based on the Chinese Loongson-2E CPU and
+	  an FPGA northbridge
+
+	  Lemote Fuloong(2e) mini PC have a VIA686B south bridge.
+
+config LEMOTE_MACH2F
+	bool "Lemote Loongson 2F family machines"
+	select ARCH_SPARSEMEM_ENABLE
+	select BOARD_SCACHE
+	select BOOT_ELF32
+	select CEVT_R4K if ! MIPS_EXTERNAL_TIMER
+	select CPU_HAS_WB
+	select CS5536
+	select CSRC_R4K if ! MIPS_EXTERNAL_TIMER
+	select DMA_NONCOHERENT
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select HW_HAS_PCI
+	select I8259
+	select IRQ_CPU
+	select ISA
+	select SYS_HAS_CPU_LOONGSON2F
+	select SYS_HAS_EARLY_PRINTK
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select LOONGSON_MC146818
+	help
+	  Lemote Loongson 2F family machines utilize the 2F revision of
+	  Loongson processor and the AMD CS5536 south bridge.
+
+	  These family machines include fuloong2f mini PC, yeeloong2f notebook,
+	  LingLoong allinone PC and so forth.
+
+config LOONGSON2H_SOC
+	bool "Loongson 2H Soc"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON2H
+	select CPU_UART
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	select HW_HAS_PCI
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	help
+       	  Loongson2h Soc
+config LOONGSON3_EVA
+	bool "Loongson 3 Main Board"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON3
+	#select DMA_NONCOHERENT
+	select CPU_UART
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	#select HAVE_STD_PC_SERIAL_PORT
+	select HW_HAS_PCI
+	select I8259
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select PHYS48_TO_HT40
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	select SYS_SUPPORTS_SMP
+	select SYS_SUPPORTS_NUMA
+	select LOONGSON_MC146818
+	select LS2H_SOUTHBRIDGE
+	#select ZONE_DMA32 if 64BIT
+	#select RS780
+	help
+	  Loongson3 RS780E board based on the Chinese loongson3 CPU
+
+config LOONGSON3A_DAWNING
+	bool "Loongson 3A in Dawning"
+	select ARCH_SPARSEMEM_ENABLE
+	select CEVT_R4K
+	select CSRC_R4K
+	select SYS_HAS_CPU_LOONGSON3A
+	#select DMA_NONCOHERENT
+	select CPU_UART
+	select BOOT_ELF32
+	select BOARD_SCACHE
+	#select HAVE_STD_PC_SERIAL_PORT
+	select HW_HAS_PCI
+	select I8259
+	select ISA
+	select IRQ_CPU
+	select SYS_SUPPORTS_32BIT_KERNEL
+	select SYS_SUPPORTS_64BIT_KERNEL
+	select SYS_SUPPORTS_LITTLE_ENDIAN
+	select SYS_SUPPORTS_HIGHMEM
+	select SYS_HAS_EARLY_PRINTK
+	select GENERIC_HARDIRQS_NO__DO_IRQ
+	select GENERIC_ISA_DMA_SUPPORT_BROKEN
+	select CPU_HAS_WB
+	select SYS_SUPPORTS_SMP
+	select SYS_SUPPORTS_NUMA
+	#select ZONE_DMA32 if 64BIT
+	#select RS780
+	help
+	  Loongson3a Dawning board based on the Chinese loongson3a CPU
+
+endchoice
+
+config LS2H_SOUTHBRIDGE
+	bool 
+
+config CS5536
+	bool
+
+config CS5536_MFGPT
+	bool "CS5536 MFGPT Timer"
+	depends on CS5536
+	select MIPS_EXTERNAL_TIMER
+	help
+	  This option enables the mfgpt0 timer of AMD CS5536.
+
+	  If you want to enable the Loongson2 CPUFreq Driver, Please enable
+	  this option at first, otherwise, You will get wrong system time.
+
+	  If unsure, say Yes.
+
+config LOONGSON_SUSPEND
+	bool
+	default y
+	depends on CPU_SUPPORTS_CPUFREQ && SUSPEND
+
+config LOONGSON_UART_BASE
+	bool
+	default y
+	depends on EARLY_PRINTK || SERIAL_8250
+
+config LOONGSON_MC146818
+	bool
+	default n
+
+config CPU_UART
+	bool
+
+config LOONGSON_BIGMEM
+	bool "Soft IOMMU Support for Big Memory (>2G)"
+	depends on CPU_LOONGSON3 || CPU_LOONGSON2H
+	select SWIOTLB
+	select ZONE_DMA32
+
+config IOMMU_HELPER
+	bool
+
+config CPU_SUPPORTS_HUGEPAGES
+	bool "Huge Pages Support"
+	depends on CPU_LOONGSON3 || CPU_LOONGSON2H
+
+config CPU_SUPPORTS_VECTOR_COPROCESSOR
+	bool "Vector Coprocessor Support"
+	depends on CPU_LOONGSON3
+
+config TOTAL_SYSTEM_MEMSIZE
+	int "Available System Memory Size Per Node (1GB/2GB/3GB/4GB)"
+	range 1 4
+	depends on CPU_SUPPORTS_VECTOR_COPROCESSOR
+
+config NEED_SG_DMA_LENGTH
+	bool
+
+config SWIOTLB
+	bool
+	select IOMMU_HELPER
+	select NEED_SG_DMA_LENGTH
+	select NEED_DMA_MAP_STATE
+config PHYS48_TO_HT40
+	bool
+	default y
