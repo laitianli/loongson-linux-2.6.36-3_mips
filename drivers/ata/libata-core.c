@@ -5925,6 +5925,12 @@ static void ata_host_stop(struct device *gendev, void *res)
  *	LOCKING:
  *	None.
  */
+/**ltl
+ * 功能:实现ata_port_operations结构的继承
+ * 参数:
+ * 返回值:
+ * 说明:acpi_ops对象、sata_port_ops对象、ata_base_port_ops对象三者之间的继承关系
+ * */
 static void ata_finalize_port_ops(struct ata_port_operations *ops)
 {
 	static DEFINE_SPINLOCK(lock);
